@@ -1,4 +1,35 @@
-h1 {
-    color: red;
-    text-decoration: underline
+/* common styles */
+body {
+    margin: 0px
+}
+/* common nav styles */
+.navagation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flexbox container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+
+.left-column{
+    display: flex;
+    align-items: center;
+}
+
+.icon i {
+    margin-right: 2em
+}
+.icon i {
+    font-size: 2em
+}
+.contact-hours-wrapper {
+
+}
+
+.address-wrapper {
+
 }
